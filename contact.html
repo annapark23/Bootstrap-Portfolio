@@ -10,32 +10,127 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</header>
+
+<style>
+
+#logo{
+    float:left;
+    font-size: 40px;
+    background-color: #8bb9ee;
+    color: white;
+    padding: 10px;
+    margin-left: 75px;
+}
+
+nav{
+    padding: 20px;
+    margin-right: 55px;
+}
+
+body{
+    background: url("memphis-colorful.png");
+
+}
+
+header{
+    background-color: white;
+    border-bottom: 1px solid #cccccc;
+
+}
+
+.main-section{
+    background-color: white;
+    width:960px;
+    margin:20px auto;
+    padding: 20px ;
+    border: 1px solid #cccccc;
+
+}
+h2{
+    color: #8bb9ee;
+}
+/*footer */
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  background: #dbdbdb;
+  border-top: 8px solid #8bb9ee;
+  height: 50px;
+
+}
+
+h3, h2 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eeeeee;
+}
+</style>
+
 
 <body>
+
+    <header id="masthead">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="index.html" id="logo">Your Name</a>
+                </div>
+                <div class="col-md-2"></div>
+
+                <div class="col-md-6">
+                    <nav>
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+
+
+            </div>
+        </div>
+    </header>
     
+  <div id="main-container" class="container">
+    <section class="main-section">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 >Contact</h2>
+            </div>
+        </div>
+
+        <div id="input">
+            <form action="/action_page.php">
+                Name<br> <input type="text" name="name" class="myText" style="width:920px;"><br>
+                Email<br><input type="text" name="email" class="myText" style="width:920px;"><br>
+                Message<br><input type="text" name="message"class="myMessage" style="width:920px; height:300px;"><br>
+                <button type="button" class="btn btn-light">Submit</button>
+            </form>
+        </div>
+
+        
+    
+
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="container">
+        Copyright &copy; 
+        </div>
+    </footer>
 </body>
 </html>
