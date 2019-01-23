@@ -1,3 +1,10 @@
+#mypic{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+
+}
+
 #logo{
     float:left;
     font-size: 40px;
@@ -69,6 +76,9 @@ footer {
   background: #dbdbdb;
   border-top: 8px solid #8bb9ee;
   height: 50px;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
 
 }
 
