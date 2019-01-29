@@ -2,6 +2,8 @@
     border-radius: 50%;
     height: 200px;
     width: 200px;
+    border: 2px solid;
+    border-color: #cccccc;
 
 }
 
@@ -29,10 +31,10 @@ header{
 
 }
 /* changes the background pic */
-body{
+/* body{
     background-image: url("memphis-colorful.png");
 
-}
+} */
 
 #main-container{
     width:85%;
@@ -67,14 +69,14 @@ h2{
 
 
 /*footer */
-footer {
+/* footer {
   padding: 30px 0;
   clear: both;
   font-size: 12px;
   color: #ffffff;
   text-align: center;
-  background: #dbdbdb;
-  border-top: 8px solid #8bb9ee;
+  background: #ee6e73;
+  border-top: 2px solid #cccccc;
   height: 50px;
   position:fixed;
   bottom: 0;
@@ -87,7 +89,7 @@ h3, h2 {
   margin-bottom: 15px;
   line-height: 22px;
   border-bottom: 2px solid #eeeeee;
-}
+} */
 
 /* body paragraph */
 
@@ -105,18 +107,22 @@ p{
 }
 /*pictures and the text boxes on the portfolio page */
 .portfolioPics{
-    width: 100%;
-    margin: 10px 20px;
-
+    width: 90%;
+    margin: 5px 10px;
+    height: 175px;
     position:relative;
+    border: 1.5px solid;
+    border-radius: 15px;
+    border-color: #dbebf5;
+
 }
 
 .bottomCenter{
     position:absolute;
-    left:12.5%;
+    left:9%;
     bottom:15%;
-    background: #8bb9ee;
-    width: 89%;
+    background: #dbebf5;
+    width: 80%;
     box-sizing: border-box;
     font-size: 18px;
     text-align: center;
@@ -124,3 +130,22 @@ p{
     padding: 10px;
 }
 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url("memphis-colorful.png");
+
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  footer.page-footer{
+      padding-top: 5px;
+  }
+
+  #contact{
+      text-align: center;
+  }
